@@ -77,7 +77,7 @@
 @section('content')
     <div class="container-fluid" style="max-width: 1170px; margin: auto;">
         <div class="row">
-            <h1 align="center" style="color:#77342C; padding-bottom:30px;"><b>Monitoring dan Evaluasi Pengembangan Kakao Luwu Utara</b></h1>
+            <h1 align="center" style="color:#77342C; padding-bottom:30px;"><b>UPDATE: Monitoring dan Evaluasi Pengembangan Kakao Luwu Utara</b></h1>
             <div
                 class="swiffy-slider slider-nav-visible slider-nav-autoplay slider-nav-autopause slider-nav-animation slider-nav-animation-fadein slider-nav-animation-slow" data-slider-nav-autoplay-interval="7000">
                 <ul class="slider-container">
