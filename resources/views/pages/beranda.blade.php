@@ -77,7 +77,7 @@
 @section('content')
     <div class="container-fluid" style="max-width: 1170px; margin: auto;">
         <div class="row">
-            <h1 align="center" style="color:#77342C; padding-bottom:30px;"><b>UPDATE: Monitoring dan Evaluasi Pengembangan Kakao Luwu Utara</b></h1>
+            <h1 align="center" style="color:#77342C; padding-bottom:30px;"><b>Monitoring dan Evaluasi Pengembangan Kakao Luwu Utara</b></h1>
             <div
                 class="swiffy-slider slider-nav-visible slider-nav-autoplay slider-nav-autopause slider-nav-animation slider-nav-animation-fadein slider-nav-animation-slow" data-slider-nav-autoplay-interval="7000">
                 <ul class="slider-container">
@@ -100,7 +100,7 @@
                 </ul>
             </div>
             <div class="hidden-xs hidden-sm">
-                <h2 style="padding-bottom:20px;">Selayang Pandang</h2>
+                <h2 style="padding-bottom:20px;">TEST: Selayang Pandang</h2>
                 {{-- <p align="center"><img src="dist/img/1.png" alt="" style="padding-bottom: 20px;"></p> --}}
                 <p>Kakao merupakan salah satu komoditas unggulan perkebunan di Indonesia yang menempati peringkat kelima dalam produksi terbesar setelah kelapa sawit, karet, kopi, dan kelapa (BPS, 2019). Sebagai komoditas ekspor yang penting, produksi kakao memberikan kontribusi yang signifikan terhadap perekonomian sektor pertanian. Indonesia merupakan eksportir terbesar ketiga kakao di dunia setelah Ghana dan Pantai Gading. Namun, dalam rentang waktu 2013 hingga 2017, produksi kakao di Indonesia mengalami penurunan baik dari segi luas lahan maupun volume ekspor. Penurunan ini disebabkan oleh pengelolaan kebun yang belum optimal, serangan hama yang tinggi, serta penurunan produksi dan pendapatan petani kakao (Wijayanto, 2019).
                 </p>
