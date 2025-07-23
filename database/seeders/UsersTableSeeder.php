@@ -46,6 +46,33 @@ class UsersTableSeeder extends Seeder
             'id_lembaga'=>0
         ]);
         DB::table('users')->insert([
+            'name' => 'Admin Bapperida',
+            'username' => 'admin_bapperida',
+            'email'=>'admin_bapperida@gmail.com',
+            'role'=>'admin',
+            'password'=>Hash::make('adminbapperida1'),
+            'id_stakeholder'=>13,
+            'id_lembaga'=>0
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Admin Diskominfo',
+            'username' => 'admin_diskominfo',
+            'email'=>'admin_diskominfo@gmail.com',
+            'role'=>'admin',
+            'password'=>Hash::make('admindiskominfo2'),
+            'id_stakeholder'=>13,
+            'id_lembaga'=>0
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Admin Distan',
+            'username' => 'admin_distan',
+            'email'=>'admin_distan@gmail.com',
+            'role'=>'admin',
+            'password'=>Hash::make('admindistan3'),
+            'id_stakeholder'=>13,
+            'id_lembaga'=>0
+        ]);
+        DB::table('users')->insert([
             'name' => 'Bapperida',
             'username' => 'bapperida_lutra',
             'email'=>'bappelitbangda_lutra@gmail.com',
