@@ -13,7 +13,8 @@ class UserController extends Controller
     {
         $user = DB::table('users')
                 ->join('stakeholders', 'users.id_stakeholder', '=', 'stakeholders.id')
-                ->paginate(10);
+                ->select('users.id', 'users.name', 'users.username', 'users.email', 'users.role', 'stakeholders.stakeholder')
+                ->paginate(10);
         return view('admin.user', ['user' => $user]);
     }
 
