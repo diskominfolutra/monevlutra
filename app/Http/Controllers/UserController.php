@@ -12,10 +12,10 @@ class UserController extends Controller
     public function index()
     {
         $user = DB::table('users')
-                ->join('stakeholders', 'users.id_stakeholder', '=', 'stakeholders.id')
-                ->select('users.id', 'users.name', 'users.username', 'users.email', 'users.role', 'stakeholders.stakeholder')
-                ->paginate(10);
-        return view('admin.user', ['user' => $user]);
+					->join('stakeholders', 'users.id_stakeholder', '=', 'stakeholders.id')
+					->select('users.id', 'users.name', 'users.username', 'users.email', 'users.role', 'stakeholders.stakeholder')
+					->paginate(10);
+        return view('admin.user', ['user' => $user]);
     }
 
     public function tambahUser()
