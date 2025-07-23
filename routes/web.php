@@ -54,7 +54,7 @@ Route::group(['middleware' => 'auth'], function(){
     Route::post('/kontributor/store_realisasi', [KontributorController::class, 'storeRealisasi']);
     Route::get('/kontributor/realisasi/{id}', [KontributorController::class, 'revisiRealisasi']);
     Route::put('/kontributor/realisasi/{id}', [KontributorController::class, 'updateRevisiRealisasi']);
-    Route::get('/kontributor/export', [KontributorController::class, 'daftarRealisasiKegiatanExport']);
+    Route::get('/kontributor/export_realisasi', [KontributorController::class, 'daftarRealisasiKegiatanExport']);
 
     Route::get('/admin', [AdminController::class, 'index'])->name('admin');
     Route::get('/admin/indikator/{id}', [AdminController::class, 'editIndikator']);
