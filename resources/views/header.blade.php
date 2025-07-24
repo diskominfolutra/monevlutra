@@ -77,7 +77,7 @@
                             <li><a class="home" href="{{ url('') }}/artikel">Artikel</a></li>
                             <li><a class="prett">Unduh</a>
                                 <ul class="menus">
-                                    <li><a href="https://drive.google.com/file/d/1SSqdE-na47EVdbvUoWiLmSsijww3OGNl/view?usp=sharing" target="_blank">Dokumen Metadata</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1eduEOHY4r8aX29COGQXI1mfK4Jpr_LG5/view?usp=sharing" target="_blank">Dokumen Metadata</a></li>
                                     <li><a href="https://drive.google.com/file/d/1ZRDY70s5Ei9sJq6qcfsBf28zA6k-5h4q/view?usp=sharing" target="_blank">Dokumen Peta Jalan</a></li>
                                     <li><a href="https://drive.google.com/file/d/1WBQLiKY5173QkR22qJqoGSGPe5l_o484/view?usp=sharing" target="_blank">Panduan Penggunaan</a></li>
                                     <li><a href="https://drive.google.com/file/d/1ZyBIgzzY_Xpt54w3j0at4Go58SUXhevm/view" target="_blank">Perbub No 18 Tahun 2024</a></li>
